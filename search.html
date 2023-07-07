@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            fontFamily: {
+                'Berkshire Swash': ['Berkshire Swash', 'cursive'],
+              },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div
+      class="overflow-hidden bg-white flex flex-col justify-start gap-20 w-full items-end pt-8 pb-[140px] px-10"
+    >
+      <div class="flex flex-row justify-start mr-px gap-6 w-3/5 items-center">
+        <div
+          class="text-6xl font-['Berkshire_Swash'] text-[#11009e] mr-[362px] w-56 shrink-0"
+        >
+          HirePro
+        </div>
+        <div
+          class="text-center whitespace-nowrap text-2xl font-['Poppins'] font-semibold self-end mb-2 w-32 shrink-0"
+        >
+          Employer 1
+        </div>
+        <img
+          src="https://file.rendit.io/n/1cx2UQ3qSwqgRzoUMhp6.png"
+          class="min-h-0 min-w-0 w-16 shrink-0"
+        />
+      </div>
+      <div
+        class="self-stretch flex flex-row justify-start ml-1 gap-6 items-start"
+      >
+        <div class="flex flex-col justify-between mr-5 gap-5 w-2/3 items-stretch">
+          <div class="flex flex-row justify-between mr-[210px] items-center">
+            <div
+              class="text-center whitespace-nowrap text-2xl font-['Poppins'] font-semibold w-48 shrink-0"
+            >
+              Select Job Role
+            </div>
+            <div
+              class="text-center whitespace-nowrap text-2xl font-['Poppins'] font-semibold w-48 shrink-0 "
+            >
+              Select Location
+            </div>
+          </div>
+          <div class="flex flex-row justify-start gap-6 items-center mb-1 mr-8">
+            <input placeholder="Job Role"
+              class="border-solid border-[#11009e] bg-white flex flex-row justify-between w-1/2 h-20 items-center px-8 border text-2xl rounded-[25px]"
+            >
+        </input>
+            <input placeholder="Location"
+              class="border-solid border-[#11009e] bg-white text-2xl flex flex-row justify-between w-1/2 h-20 items-center pl-10 pr-8 border rounded-[25px]"
+            >
+        </input>
+          </div>
+          <div class="min-h-0 min-w-0 self-start mb-6 ml-5">
+            <svg
+              width="701"
+              height="16"
+              viewBox="0 0 701 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 16C12.4183 16 16 12.4183 16 8.00003C16 3.58175 12.4183 3.03244e-05 8 3.05176e-05C3.58172 3.07107e-05 -1.93129e-07 3.58175 0 8.00003C1.93129e-07 12.4183 3.58172 16 8 16ZM693 16C697.418 16 701 12.4183 701 8C701 3.58172 697.418 3.82148e-07 693 5.75278e-07C688.582 7.68407e-07 685 3.58172 685 8C685 12.4183 688.582 16 693 16ZM8 9.50003L693 9.5L693 6.5L8 6.50003L8 9.50003Z"
+                fill="#ADADAD"
+              />
+            </svg>
+          </div>
+          <div class="flex flex-row justify-start gap-12 items-center">
+            <div
+              class="border-solid shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)] bg-white flex flex-row justify-start gap-6 w-1/2 h-32 items-center pl-5 pr-8 borderblack/12 border rounded-[30px]"
+            >
+              <img
+                src="https://file.rendit.io/n/1cx2UQ3qSwqgRzoUMhp6.png"
+                class="min-h-0 min-w-0 w-16 shrink-0"
+              />
+              <div
+                class="relative flex flex-col justify-center w-[293px] items-end pt-4 pb-3"
+              >
+                <div
+                  class="w-[270px] h-[51.35%] text-2xl font-['Poppins'] absolute top-0 left-0"
+                >
+                  John Doe
+                </div>
+                <div
+                  class="w-[270px] h-[51.35%] text-sm font-['Poppins'] text-[#11009e] absolute top-6 left-0"
+                >
+                  UI/UX Designer
+                </div>
+                <div
+                  class="whitespace-nowrap text-sm font-['Poppins'] absolute top-12 left-px h-6 w-12"
+                >
+                  figma
+                </div>
+                <div
+                  class="whitespace-nowrap text-sm font-['Poppins'] absolute top-12 left-16 h-6 w-12"
+                >
+                  figma
+                </div>
+                <div
+                  class="whitespace-nowrap text-sm font-['Poppins'] absolute top-12 left-32 h-6 w-12"
+                >
+                  figma
+                </div>
+                <div class="round">
+                  <input type="checkbox" checked id="checkbox" />
+                  <label for="checkbox"></label>
+                </div>
+              </div>
+            </div>
+            <div
+              class="border-solid shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)] bg-white flex flex-row justify-start gap-6 w-1/2 h-32 items-center pl-5 pr-8 borderblack/12 border rounded-[30px]"
+            >
+              <img
+                src="https://file.rendit.io/n/1cx2UQ3qSwqgRzoUMhp6.png"
+                class="min-h-0 min-w-0 w-16 shrink-0"
+              />
+              <div
+                class="relative flex flex-col justify-center w-[293px] items-end pt-4 pb-3"
+              >
+                <div
+                  class="w-[270px] h-[51.35%] text-2xl font-['Poppins'] absolute top-0 left-0"
+                >
+                  John Doe
+                </div>
+                <div
+                  class="w-[270px] h-[51.35%] text-sm font-['Poppins'] text-[#11009e] absolute top-6 left-0"
+                >
+                  UI/UX Designer
+                </div>
+                <div
+                  class="whitespace-nowrap text-sm font-['Poppins'] absolute top-12 left-px h-6 w-12"
+                >
+                  figma
+                </div>
+                <div
+                  class="whitespace-nowrap text-sm font-['Poppins'] absolute top-12 left-16 h-6 w-12"
+                >
+                  figma
+                </div>
+                <div
+                  class="whitespace-nowrap text-sm font-['Poppins'] absolute top-12 left-32 h-6 w-12"
+                >
+                  figma
+                </div>
+                <div class="round">
+                  <input type="checkbox" checked id="checkbox2" />
+                  <label for="checkbox2"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="min-h-0 min-w-0 self-end mt-6 w-0 shrink-0">
+          <svg
+            width="16"
+            height="1141"
+            viewBox="0 0 16 1141"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 8C-1.93129e-07 12.4183 3.58172 16 8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 1.93129e-07 8 0C3.58172 -1.93129e-07 1.93129e-07 3.58172 0 8ZM-4.91753e-05 1133C-4.93684e-05 1137.42 3.58167 1141 7.99995 1141C12.4182 1141 16 1137.42 16 1133C16 1128.58 12.4182 1125 7.99995 1125C3.58167 1125 -4.89822e-05 1128.58 -4.91753e-05 1133ZM6.5 8L6.49995 1133L9.49995 1133L9.5 8L6.5 8Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+        <div
+              class="border-solid shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)] bg-white flex flex-row justify-start gap-6 w-1/2 h-32 items-center pl-5 pr-8 borderblack/12 border rounded-[30px]"
+            >
+              <img
+                src="https://file.rendit.io/n/1cx2UQ3qSwqgRzoUMhp6.png"
+                class="min-h-0 min-w-0 w-16 shrink-0"
+              />
+              <div
+                class="relative flex flex-col justify-center w-[293px] items-end pt-4 pb-3"
+              >
+                <div
+                  class="w-[270px] h-[51.35%] text-2xl font-['Poppins'] absolute top-0 left-0"
+                >
+                  John Doe
+                </div>
+                <div
+                  class="w-[270px] h-[51.35%] text-sm font-['Poppins'] text-[#11009e] absolute top-6 left-0"
+                >
+                  UI/UX Designer
+                </div>
+                <div
+                  class="whitespace-nowrap text-sm font-['Poppins'] absolute top-12 left-px h-6 w-12"
+                >
+                  figma
+                </div>
+                <div
+                  class="whitespace-nowrap text-sm font-['Poppins'] absolute top-12 left-16 h-6 w-12"
+                >
+                  figma
+                </div>
+                <div
+                  class="whitespace-nowrap text-sm font-['Poppins'] absolute top-12 left-32 h-6 w-12"
+                >
+                  figma
+                </div>
+                <div class="round">
+                  <input type="checkbox" checked id="checkbox1" />
+                  <label for="checkbox1"></label>
+                </div>
+              </div>
+            </div>
+        <div
+        class="text-center whitespace-nowrap text-2xl font-['Poppins'] font-bold text-white w-[141px]"
+      >
+        Finalize List
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
