@@ -27,6 +27,7 @@
   transform: rotate(-45deg);
   width: 12px;
 }
+/* checkbox */
 
 .round input[type="checkbox"] {
   visibility: hidden;
@@ -66,5 +67,123 @@
   opacity: 1;
 }
 
-/* dropdown */
+/* checkbox */
+
+.round input[type="checkbox3"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox3"]:checked + label {
+  background-color: #11009e;
+  border-color: #11009e;
+}
+
+.round input[type="checkbox3"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[type="checkbox4"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox4"]:checked + label {
+  background-color: #11009e;
+  border-color: #11009e;
+}
+
+.round input[type="checkbox4"]:checked + label:after {
+  opacity: 1;
+}
+.round input[type="checkbox5"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox5"]:checked + label {
+  background-color: #11009e;
+  border-color: #11009e;
+}
+
+.round input[type="checkbox6"]:checked + label:after {
+  opacity: 1;
+}
+
+/* checkbox */
+
+.round input[type="checkbox7"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox7"]:checked + label {
+  background-color: #11009e;
+  border-color: #11009e;
+}
+
+.round input[type="checkbox7"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[type="checkbox8"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox8"]:checked + label {
+  background-color: #11009e;
+  border-color: #11009e;
+}
+
+.round input[type="checkbox8"]:checked + label:after {
+  opacity: 1;
+}
+.round input[type="checkbox9"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox9"]:checked + label {
+  background-color: #11009e;
+  border-color: #11009e;
+}
+
+.round input[type="checkbox9"]:checked + label:after {
+  opacity: 1;
+}
+
+/* checkbox */
+
+.round input[type="checkbox10"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox10"]:checked + label {
+  background-color: #11009e;
+  border-color: #11009e;
+}
+
+.round input[type="checkbox10"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[type="checkbox11"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox11"]:checked + label {
+  background-color: #11009e;
+  border-color: #11009e;
+}
+
+.round input[type="checkbox11"]:checked + label:after {
+  opacity: 1;
+}
+.round input[type="checkbox12"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox12"]:checked + label {
+  background-color: #11009e;
+  border-color: #11009e;
+}
+
+.round input[type="checkbox12"]:checked + label:after {
+  opacity: 1;
+}
 
