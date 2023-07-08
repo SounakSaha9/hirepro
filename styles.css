@@ -65,3 +65,6 @@
 .round input[type="checkbox2"]:checked + label:after {
   opacity: 1;
 }
+
+/* dropdown */
+
